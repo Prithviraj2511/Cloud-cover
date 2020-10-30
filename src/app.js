@@ -58,13 +58,13 @@ app.get('/weather',(req,res)=>{
             })
         }
         else {
-            weatherDetails(long, lat, (error, { temperature, feelsLike, description }={}) => {
+            weatherDetails(long, lat, (error, { temperature, feelsLike, description,humidity }={}) => {
                 if (error) {
                     return res.send({
                         error
                     })
                 }
-                const status=description + "Throught the day. It is currently " + temperature + " degrees out. Feels like " + feelsLike + " degrees out";
+                const status=description + "Throught the day. It is currently " + temperature + " degrees out. Feels like " + feelsLike + " degrees out \n"+"Humidity is around "+humidity+" %.";
                 res.send({
                     address:req.query.address,
                     location:place_name,

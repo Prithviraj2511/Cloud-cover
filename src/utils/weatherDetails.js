@@ -14,7 +14,8 @@ function weatherDetails(long, lat, callback) {
             callback(undefined, {
                 description: weatherData.weather_descriptions[0],
                 temperature: weatherData.temperature,
-                feelsLike: weatherData.feelslike
+                feelsLike: weatherData.feelslike,
+                humidity:weatherData.humidity
             });
         }
     });
