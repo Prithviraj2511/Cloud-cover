@@ -16,3 +16,4 @@
 ### concepts ###
 * callback chaining (callback inside another callback which is inside another callback is used)
 * object destructuring (while getting object as parameter of function object destructuring is used)
+* running app locally as well as deploying it on heroku
