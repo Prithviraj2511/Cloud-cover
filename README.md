@@ -1,7 +1,8 @@
 # [Cloud-cover](https://void-cloud-cover-application.herokuapp.com/) :cloud:
 ---
 ### Technologies used :eyeglasses: ###
-<img src="https://github.com/Prithviraj2511/Cloud-cover/blob/main/public/img/express-logo.png" alt="Express" height="100"> <img src="https://github.com/Prithviraj2511/Cloud-cover/blob/main/public/img/handelbars.jpg" alt="Handelbars" height="100">
+<img src="https://github.com/Prithviraj2511/Cloud-cover/blob/main/public/img/express-logo.png" alt="Express" height="100"> <img src="https://github.com/Prithviraj2511/Cloud-cover/blob/main/public/img/handelbars.jpg" alt="Handelbars" height="100"> <img src="https://github.com/Prithviraj2511/Cloud-cover/blob/main/public/img/node.png" alt="Handelbars" height="100">
+
 
 ---
 ### API's used :satellite: ###
